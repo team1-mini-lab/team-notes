@@ -13,16 +13,16 @@ Phase 2의 Function Component, State, useState, useEffect, useMemo 기능을 요
 
 | 요구사항 ID | 요구사항명 | 요구사항 내용 | 우선순위 | 적용 Phase | 관련 R ID |
 |---|---|---|---|---|---|
-| FR-11 | 함수형 컴포넌트 실행 | 시스템은 함수형 컴포넌트를 정의하고 실행할 수 있어야 한다. | Must | Phase 2 | 확인 필요 |
-| FR-12 | 컴포넌트 렌더링 | 시스템은 함수형 컴포넌트의 실행 결과를 UI에 렌더링해야 한다. | Must | Phase 2 | 확인 필요 |
-| FR-13 | Props 전달 | 부모 컴포넌트는 자식 컴포넌트에 Props를 전달할 수 있어야 한다. | Must | Phase 2 | 확인 필요 |
-| FR-14 | 컴포넌트 재렌더링 | 시스템은 컴포넌트의 상태 변경에 따라 컴포넌트를 다시 렌더링해야 한다. | Must | Phase 2 | 확인 필요 |
-| FR-15 | State 관리 | 시스템은 컴포넌트별 상태를 관리할 수 있어야 한다. | Must | Phase 2 | 확인 필요 |
-| FR-16 | useState 초기값 | useState는 전달받은 초기값으로 상태를 초기화해야 한다. | Must | Phase 2 | 확인 필요 |
-| FR-17 | State 변경 | 사용자는 useState가 반환하는 상태 변경 함수를 통해 상태를 변경할 수 있어야 한다. | Must | Phase 2 | 확인 필요 |
-| FR-18 | useEffect 실행 | 시스템은 useEffect에 전달된 Effect 함수를 실행해야 한다. | Must | Phase 2 | 확인 필요 |
-| FR-19 | useEffect 의존성 처리 | 시스템은 useEffect의 의존성 배열을 기준으로 Effect 실행 여부를 판단해야 한다. | Must | Phase 2 | 확인 필요 |
-| FR-20 | useMemo 계산 결과 재사용 | 시스템은 의존성이 변경되지 않으면 useMemo의 이전 계산 결과를 재사용해야 한다. | Must | Phase 2 | 확인 필요 |
+| FR-11 | - | - | Must | Phase 2 | 확인 필요 |
+| FR-12 | - | - | Must | Phase 2 | 확인 필요 |
+| FR-13 | - | - | Must | Phase 2 | 확인 필요 |
+| FR-14 | - |  - | Must | Phase 2 | 확인 필요 |
+| FR-15 | - |  - | Must | Phase 2 | 확인 필요 |
+| FR-16 | - |  - | Must | Phase 2 | 확인 필요 |
+| FR-17 | - |  - | Must | Phase 2 | 확인 필요 |
+| FR-18 | - |  - | Must | Phase 2 | 확인 필요 |
+| FR-19 | - |  - | Must | Phase 2 | 확인 필요 |
+| FR-20 | - |  - | Must | Phase 2 | 확인 필요 |
 
 ## 3. 요구사항 작성 시 확인 사항
 
@@ -37,11 +37,11 @@ Phase 2의 Function Component, State, useState, useEffect, useMemo 기능을 요
 
 | 검증 ID | 요구사항 ID | 검증 방법 | 테스트 조건 | 예상 결과 | 합격 기준 |
 |---|---|---|---|---|---|
-| VT-06 | FR-11 | Unit Test | 함수형 컴포넌트 실행 | 컴포넌트 실행 결과 반환 | 예상 결과와 일치 |
-| VT-07 | FR-13 | Functional Test | 부모에서 자식으로 Props 전달 | 자식 컴포넌트에서 값 사용 | 전달한 값과 일치 |
-| VT-08 | FR-16 | Unit Test | useState 초기값 전달 | 초기 상태 반환 | 초기값과 일치 |
-| VT-09 | FR-17 | Functional Test | 상태 변경 함수 호출 | 상태 변경 및 재렌더링 | 변경된 상태가 UI에 반영 |
-| VT-10 | FR-19 | Unit Test | 의존성 배열 값 변경 및 유지 | Effect 실행 여부 판단 | 정의한 실행 조건과 일치 |
-| VT-11 | FR-20 | Unit Test | 의존성 배열 값 유지 및 변경 | 계산 결과 재사용 또는 재계산 | 정의한 의존성 조건과 일치 |
+| VT-06 | FR-11 | Unit Test | -| 컴포넌트 실행 결과 반환 | 예상 결과와 일치 |
+| VT-07 | FR-13 | Functional Test |  - | 자식 컴포넌트에서 값 사용 | 전달한 값과 일치 |
+| VT-08 | FR-16 | Unit Test |  - | 초기 상태 반환 | 초기값과 일치 |
+| VT-09 | FR-17 | Functional Test |  -| 상태 변경 및 재렌더링 | 변경된 상태가 UI에 반영 |
+| VT-10 | FR-19 | Unit Test |  - | Effect 실행 여부 판단 | 정의한 실행 조건과 일치 |
+| VT-11 | FR-20 | Unit Test |  - | 계산 결과 재사용 또는 재계산 | 정의한 의존성 조건과 일치 |
 
 > 위 내용은 작성 예시이며 실제 과제 요구사항 및 팀 설계에 따라 수정한다.
