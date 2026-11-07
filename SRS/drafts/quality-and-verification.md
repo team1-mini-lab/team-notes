@@ -4,7 +4,7 @@
 
 > 작성 담당: C  
 > 작성 범위: SRS 3.2, 3.3, 3.4, 4, 5.1  
-> 문서 상태: Draft
+> 문서 상태: 완료
 
 ## 1. Non-functional Requirements (SRS 3.2)
 
