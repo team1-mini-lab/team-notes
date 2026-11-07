@@ -3,7 +3,7 @@
 
 > 작성 담당: B  
 > 작성 범위: SRS 3.1 Functional Requirements  
-> 문서 상태: Draft
+> 문서 상태: Draft (아래는 예시일 뿐, 내용은 각자 채워야 합니다.)
 
 ## 1. 작성 범위
 
