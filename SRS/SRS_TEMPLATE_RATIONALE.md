@@ -10,7 +10,7 @@ ISO/IEC/IEEE 29148:2018을 참고한 SRS 템플릿을 선정하고, 미니 React
 
 | 구분 | 자료 | 활용 목적 |
 |---|---|---|
-| 표준 | ISO/IEC/IEEE 29148:2018 | SRS 구성 및 요구사항 작성 원칙 확인 |
+| 표준 | [ISO/IEC/IEEE 29148:2018](https://www.iso.org/standard/72089.html) | SRS 구성 및 요구사항 작성 원칙 확인 |
 | 공개 템플릿 | [DIN-DKE SRS Template](https://github.com/DIN-DKE/ISO_IEC_IEEE_29148__SRS-Template/blob/master/template.md) | SRS 세부 항목 및 문서 구조 비교 |
 | 프로젝트 요구사항 | [LMS Requirements](./LMS_REQUIREMENTS.md) | 템플릿 항목의 도입 필요성 판단 |
 
@@ -90,6 +90,8 @@ R20의 엣지 케이스 검증은 하나의 테스트로 처리하지 않고, �
 
 ## 7. 관련 문서
 
-- [SRS Template](./SRS_TEMPLATE.md)
-- [Software Requirements Specification](../SRS.md)
-- [LMS Requirements](./LMS_REQUIREMENTS.md)
+| 구분 | 자료 | 활용 목적 |
+|---|---|---|
+| 원본 요구사항 | [LMS Requirements](./LMS_REQUIREMENTS.md) | LMS에서 제공한 원본 요구사항 확인 |
+| SRS 문서 | [Software Requirements Specification](../SRS.md) | 프로젝트 요구사항의 구체적인 명세 확인 |
+| SRS 템플릿 | [SRS Template](./SRS_TEMPLATE.md) | SRS 문서 작성 구조 및 형식 확인 |
