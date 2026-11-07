@@ -36,11 +36,11 @@ Phase 2의 Function Component, State, useState, useEffect, useMemo 기능을 요
 
 | 검증 ID | 요구사항 ID | 검증 방법 | 테스트 조건 | 예상 결과 | 합격 기준 |
 |---|---|---|---|---|---|
-| VT-06 | FR-11 | Unit Test | -| 컴포넌트 실행 결과 반환 | 예상 결과와 일치 |
-| VT-07 | FR-13 | Functional Test |  - | 자식 컴포넌트에서 값 사용 | 전달한 값과 일치 |
-| VT-08 | FR-16 | Unit Test |  - | 초기 상태 반환 | 초기값과 일치 |
-| VT-09 | FR-17 | Functional Test |  -| 상태 변경 및 재렌더링 | 변경된 상태가 UI에 반영 |
-| VT-10 | FR-19 | Unit Test |  - | Effect 실행 여부 판단 | 정의한 실행 조건과 일치 |
-| VT-11 | FR-20 | Unit Test |  - | 계산 결과 재사용 또는 재계산 | 정의한 의존성 조건과 일치 |
+| VT-06 | FR-11 | Unit Test | -| - | 예상 결과와 일치 |
+| VT-07 | FR-13 | Functional Test |  - | - | 전달한 값과 일치 |
+| VT-08 | FR-16 | Unit Test |  - | -| 초기값과 일치 |
+| VT-09 | FR-17 | Functional Test |  -| - | 변경된 상태가 UI에 반영 |
+| VT-10 | FR-19 | Unit Test |  - | - | 정의한 실행 조건과 일치 |
+| VT-11 | FR-20 | Unit Test |  - | - | 정의한 의존성 조건과 일치 |
 
 > 위 내용은 작성 예시이며 실제 과제 요구사항 및 팀 설계에 따라 수정한다.
