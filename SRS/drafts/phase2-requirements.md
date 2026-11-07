@@ -28,7 +28,6 @@ Phase 2의 Function Component, State, useState, useEffect, useMemo 기능을 요
 
 - 기존 과제 요구사항 R1~R20 중 담당 범위에 해당하는 항목을 연결한다.
 - Hooks별 초기 실행, 업데이트, 의존성 처리 조건을 구체화한다.
-- Cleanup 함수 지원 여부 등 과제에서 요구하지 않은 기능은 팀 합의 후 추가한다.
 - 우선순위는 과제 필수 여부와 팀 합의에 따라 결정한다.
 
 ## 4. 검증 항목 초안
