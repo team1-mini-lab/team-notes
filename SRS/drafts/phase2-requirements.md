@@ -24,6 +24,10 @@ Phase 2의 Function Component, State, useState, useEffect, useMemo 기능을 요
 | FR-18 | useEffect 실행 | 시스템은 컴포넌트 렌더링 이후 useEffect에 전달된 Effect 함수를 실행해야 한다. | Must | Phase 2 | PR-13 |
 | FR-19 | useEffect 의존성 처리 | 시스템은 useEffect의 의존성 배열을 기준으로 Effect 함수의 실행 여부를 판단해야 한다. | Must | Phase 2 | PR-13 |
 | FR-20 | useMemo 계산 결과 재사용 | 시스템은 의존성 배열의 값이 변경되지 않으면 이전 계산 결과를 재사용하고, 의존성 값이 변경되면 계산을 다시 수행해야 한다. | Must | Phase 2 | PR-14 |
+| FR-21 | Hook 호출 규칙 | 시스템은 Hook을 루트 함수형 컴포넌트의 최상위에서만 호출하도록 제한해야 한다. | Must | Phase 2 | PR-09 |
+| FR-22 | Phase 1 기능 재사용 | 시스템은 Phase 2에서 State 변경에 따른 화면 갱신을 수행할 때 Phase 1에서 구현한 Virtual DOM, Diff, Patch를 사용해야 한다. | Must | Phase 2 | PR-15 |
+| FR-23 | Phase 2 테스트 페이지 | 시스템은 Phase 2의 State 변경과 화면 갱신 동작을 확인할 수 있는 테스트 페이지를 제공해야 한다. | Must | Phase 2 | PR-16 |
+| FR-24 | Batching | 시스템은 하나의 이벤트 처리 과정에서 발생한 여러 State 변경을 모아 한 번의 렌더링으로 처리할 수 있어야 한다. | Could | Phase 2 | PR-21 |
 
 ## 3. 요구사항 작성 시 확인 사항
 
@@ -35,3 +39,7 @@ Phase 2의 Function Component, State, useState, useEffect, useMemo 기능을 요
 - useEffect와 useMemo는 의존성 배열의 초기 실행, 값 유지 및 변경 조건을 구분한다.
 - Hook은 함수형 컴포넌트의 최상위에서만 호출하도록 정의한다.
 - 우선순위는 과제 필수 여부와 팀 합의에 따라 결정한다.
+- Hook은 루트 함수형 컴포넌트의 최상위에서만 호출하도록 정의한다.
+- Phase 2의 화면 갱신에는 Phase 1의 Virtual DOM, Diff, Patch를 재사용한다.
+- Phase 2 테스트 페이지에서 State 변경과 화면 갱신을 확인할 수 있도록 정의한다.
+- Batching은 TBD-05에 대한 팀 결정 이후 구현 여부와 우선순위를 확정한다.
