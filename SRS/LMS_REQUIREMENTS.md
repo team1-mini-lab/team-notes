@@ -73,6 +73,8 @@ NFR은 LMS 원본에서 직접 식별되는 요구사항과 구분한다. 프로
 
 ## 4. 관련 문서
 
-- [SRS Template Selection Rationale](./SRS_TEMPLATE_RATIONALE.md)
-- [Software Requirements Specification](../SRS.md)
-- [SRS Template](./SRS_TEMPLATE.md)
+| 구분 | 자료 | 활용 목적 |
+|---|---|---|
+| 원본 요구사항 | [LMS Requirements](https://github.com/team1-mini-lab/team-notes/blob/main/SRS/LMS_REQUIREMENTS.md) | LMS에서 제공한 원본 요구사항 확인 |
+| SRS 문서 | [Software Requirements Specification](https://github.com/team1-mini-lab/team-notes/blob/main/SRS/SRS.md) | 프로젝트 요구사항의 구체적인 명세 확인 |
+| SRS 템플릿 | [SRS Template](https://github.com/team1-mini-lab/team-notes/blob/main/SRS/SRS_TEMPLATE.md) | SRS 문서 작성 구조 및 형식 확인 |
